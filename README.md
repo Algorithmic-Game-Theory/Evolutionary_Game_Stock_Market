@@ -14,3 +14,12 @@ Our project aims at modelling the behaviour of players (agents) in a stock marke
 
 # Building and Execution
 
+Both the FuzzyLogic and CoevolutionaryAlgo files are python scripts (.py extension). Python3 is used for the scripts, hence, it has to be installed.
+
+## Installation of Python
+
+- Navigate to [Python Official Website](https://www.python.org/downloads/).
+- Select the OS installed on your system.
+- Download the Python Installer Package.
+- Follow the steps to install python and set its environment up on your system.
+

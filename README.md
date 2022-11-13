@@ -35,3 +35,24 @@ In order to install these packages, follow these steps -
 1. Open the terminal on your system.
 2. Execute the following command/script in a .bat file - `pip install pandas & pip install numpy & pip install maplotlib`
 
+## Stock Data Download
+
+For downloading the stock data (of the past year, or 5 years, etc.), follow the steps - 
+1. Navigate to [Nasdaq Official Website](https://www.nasdaq.com/). Create an account on Nasdaq.
+2. Go to [Nasdaq Composite Index](https://www.nasdaq.com/market-activity/index/comp). Select _Historical_.
+3. Click on Download Data. It will download the data as a .csv file.
+4. Move the file to the same folder where the python scripts are present.
+5. Open the .csv file and change the header of 'Close/Last' to just 'Close'.
+6. Change the file name in line 12 of the _CoevolutionaryAlgo.py_ script to the csv file name.
+
+## Running the Script
+
+For executing the python scripts, follow these steps -
+1. Make sure both scripts - _FuzzyLogic.py_ and _CoevolutionaryAlgo.py_ are present in the same directory and the .csv Data files too. 
+2. An IDE can be used with required Python extensions to build and run the code at the same time. In that case, just run the CoevolutionaryAlgo.py script. 
+3. If an IDE is not present, run the following command on your terminal after navigating to the directory - `python .\CoevolutionaryAlgo.py `.
+4. A plot will  be displayed on Matplotlib api window.
+
+The plot will be of an alpha population (red), an omega population (green) and an ordinary population (blue). Along with this, a black plot (of stock price data) will be present.
+
+The alpha population and omega population follow the coevolutionary as well as genetic algorithm strategy, which evolve with market data and experience. The ordinary population doesn't evolve and so has on average a lower pay-off after playing for around 10-20 generations, each generation involving consecutive trading for 70 days.

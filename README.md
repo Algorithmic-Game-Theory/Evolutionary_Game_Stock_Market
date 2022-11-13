@@ -8,6 +8,8 @@ An agent is a player in a stock market who has either of the strategies - buy, h
 
 Our project aims at modelling the behaviour of players (agents) in a stock market using an Evolutionary Game Theoretic Approach. The Players are the stockbroker agents (playing on behalf of the actual agents). The strategies are buying or selling of stocks. For simplicity, stocks of only one company at a time are transacted upon.
 
+![image](https://drive.google.com/file/d/1i2jfkNY_apzGx2z045vVG3hkIkT9ZvNn/view?usp=sharing)
+
 | ![HDFC_Share.png](https://drive.google.com/file/d/1i2jfkNY_apzGx2z045vVG3hkIkT9ZvNn/view?usp=sharing) |
 |:--:|
 | <b>HDFC Shares Price Dated 6:40 pm, 13th November, 2022 </b>|

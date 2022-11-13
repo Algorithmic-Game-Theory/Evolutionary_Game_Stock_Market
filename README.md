@@ -4,7 +4,9 @@ This Project contains coevolutionary and genetic algorithms to predict profitabl
 # Description of the Project
 A stock market is a diversified hub of agents trying to make profits, while contributing to several companies based on the utility of their projects and stocks. A stock/equity/share is essentially a piece of ownership/security of a company's inventory. When a company is private, only a few stakeholders are present and the inventory is low. So, the shares of the company based on the inventory required is made public at IPO (Initial Public Offering). The company enters the stock-market, in any registered national stock exchange (in India, NSE/BSE). 
 
-An agent is a player in a stock market who has either of the strategies - buy, hold or sell stocks of any company. A stockbroker agent acts as a _"middleman"_
+An agent is a player in a stock market who has either of the strategies - buy, hold or sell stocks of any company. A stockbroker agent acts as a _"middleman"_ in the investment process. Having charged a small percentage from the profits made by an agent, he acts as an investment/financial adviser for strategising investments for optimal profit. Thus, the entire process can be viewed as a complex game.
 
-Our project aims at modelling the behaviour of players (agents) in a stock market by 
-- 
+Our project aims at modelling the behaviour of players (agents) in a stock market using an Evolutionary Game Theoretic Approach. The Players are the stockbroker agents (playing on behalf of the actual agents). The strategies are buying or selling of stocks. For simplicity, stocks of only one company at a time are transacted upon.
+
+# Building and Execution
+

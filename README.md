@@ -23,3 +23,15 @@ Both the FuzzyLogic and CoevolutionaryAlgo files are python scripts (.py extensi
 - Download the Python Installer Package.
 - Follow the steps to install python and set its environment up on your system.
 
+## Installation of required packages
+
+We have used the following external packages for building our scripts - 
+1. Pandas : For parsing stock data smoothly from csv files
+2. Matplotlib : For visualising the wealth of each player on plots
+3. Numpy : For using numpy standard arrays as against Python heterogenous lists
+
+In order to install these packages, follow these steps -
+
+1. Open the terminal on your system.
+2. Execute the following command/script in a .bat file - `pip install pandas & pip install numpy & pip install maplotlib`
+
